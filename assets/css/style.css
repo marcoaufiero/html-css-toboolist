@@ -18,6 +18,23 @@ nav{
     height: 100px;
     border-bottom: 5px solid #F6F8F9;
 }
+
+main{
+    padding: 50px 100px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h2::before{
+    content: '\25BE';
+}
+
+section{
+    margin-bottom: 50px;
+}
+
 .container{
     margin: auto;
     margin-top: 100px;
@@ -53,6 +70,49 @@ nav{
     margin: 30px 0 10px 0;
     font-size: 20px;
     padding: 10px 0;
+}
+
+.task{
+    font-size: 30px;
+}
+
+.row{
+    display-block;
+    margin: 25px 0;
+}
+
+.row > span{
+    margin-left: 10px;
+}
+
+.label{
+    padding: 10px 20px;
+    height: 40px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.editorial{
+    background-color: #45ABEA;
+}
+
+.checkmark{
+    color: #8FD3C3;
+    border: 3px solid #8FD3C3;
+    border-radius: 50%;
+    padding: 5px 8px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.cross{
+    color: red;
+    border: 2px solid red;
+    border-radius: 50%;
+    padding: 5px 8px;
+    font-size: 20px;
+    font-weight: 800;
 }
 
 #logo{
