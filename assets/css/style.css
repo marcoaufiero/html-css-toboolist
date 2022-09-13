@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -12,6 +15,7 @@ header{
 
 body{
     background-color: #F6F8F9;
+    font-family: 'Poppins', sans-serif;
 }
 
 nav{
@@ -32,7 +36,7 @@ h2::before{
 }
 
 section{
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .container{
@@ -78,7 +82,7 @@ section{
 
 .row{
     display-block;
-    margin: 25px 0;
+    margin: 15px 0;
 }
 
 .row > span{
@@ -89,19 +93,38 @@ section{
     padding: 10px 20px;
     height: 40px;
     color: white;
-    border: 1px solid black;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 .editorial{
     background-color: #45ABEA;
 }
 
+.goals{
+    background-color: #9C72E4;
+}
+
+.recruiting{
+    background-color: #64C0A9;
+}
+
+.mobile{
+    background-color: #F29E33;
+}
+
+.website{
+    background-color: #d863a1;
+}
+
+.sales{
+    background-color: #B0C926;
+}
+
 .checkmark{
     color: #8FD3C3;
     border: 3px solid #8FD3C3;
     border-radius: 50%;
-    padding: 5px 8px;
+    padding: 3px 6px;
     font-size: 20px;
     font-weight: 800;
 }
@@ -110,7 +133,7 @@ section{
     color: red;
     border: 2px solid red;
     border-radius: 50%;
-    padding: 5px 8px;
+    padding: 3px 6px;
     font-size: 20px;
     font-weight: 800;
 }
